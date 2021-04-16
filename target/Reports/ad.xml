@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.187554">
+    <testcase classname="To validate Login Function" name="Validate Login Functionality" time="17.187554">
+        <system-out><![CDATA[Given Adactinloginpage......................................................passed
+When user entered username and password user click login button navigate search hotel page.passed
+And user choose Hotellocation,HotelName,RoomType,NumberOfRooms,CheckInDate,CheckOutDate,Adult,Children.passed
+And user click search button user go to next page...........................passed
+And user choose hotel and click continue button go to payment page..........passed
+And user enter FirstName,LastName,Address,CreditCardNum,CreditCardType,ExpiryMonth,ExpiryYear,CvvNum.passed
+And user click book now button and user get booking details.................passed
+Then user have valid credenttials page......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

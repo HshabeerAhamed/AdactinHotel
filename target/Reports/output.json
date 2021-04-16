@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-16T08:13:58.336Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3454547200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.start()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate Login Functionality",
+        "description": "",
+        "id": "to-validate-login-function;validate-login-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 678015500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2702733400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Adactinloginpage",
+            "match": {
+              "location": "Step0.adactinloginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1125540200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user entered username and password user click login button navigate search hotel page",
+            "match": {
+              "location": "Step0.user_entered_username_and_password_user_click_login_button_navigate_search_hotel_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Hshabeer",
+                  "654321"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1172767400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user choose Hotellocation,HotelName,RoomType,NumberOfRooms,CheckInDate,CheckOutDate,Adult,Children",
+            "match": {
+              "location": "Step0.user_choose_Hotellocation_HotelName_RoomType_NumberOfRooms_CheckInDate_CheckOutDate_Adult_Children(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sydney",
+                  "Hotel Creek",
+                  "Standard",
+                  "2",
+                  "30/04/2021",
+                  "30/04/2021",
+                  "2",
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 587685700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click search button user go to next page",
+            "match": {
+              "location": "Step0.user_click_search_button_user_go_to_next_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 881827400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user choose hotel and click continue button go to payment page",
+            "match": {
+              "location": "Step0.user_choose_hotel_and_click_continue_button_go_to_payment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 903105100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter FirstName,LastName,Address,CreditCardNum,CreditCardType,ExpiryMonth,ExpiryYear,CvvNum",
+            "match": {
+              "location": "Step0.user_enter_FirstName_LastName_Address_CreditCardNum_CreditCardType_ExpiryMonth_ExpiryYear_CvvNum(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "shabeer",
+                  "ahamed",
+                  "MedavakkamChennai600100",
+                  "987654321987654321",
+                  "Visa",
+                  "November",
+                  "2021",
+                  "456"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5114381400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click book now button and user get booking details",
+            "match": {
+              "location": "Step0.user_click_book_now_button_and_user_get_booking_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482004400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user have valid credenttials page",
+            "match": {
+              "location": "Step0.user_have_valid_credenttials_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate Login Function",
+    "description": "",
+    "id": "to-validate-login-function",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/New.feature",
+    "tags": []
+  }
+]
